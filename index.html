@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta httpequiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модальное окно</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- <h1>Модальное окно</h1> -->
+         <h1 class="modal__title">
+            Кто мы и как помогаем нашим клиентам
+         </h1>
+
+        <div class="content">
+            <div class="block__content first">
+                <img src="img/img 1.svg" alt="">
+                <p class="text__content">Сервис ЛетАй медицинская консалтинговая — <br>  компания, официальный агент Ассоциации <br> врачей Испании IMove на территории Беларуси, <br> России и Казахстана.</p>
+            </div>
+
+            <div class="block__content second">
+                <img src="img/img 2.svg" alt="">
+                <p class="text__content">Мы выступаем связующим звеном между <br>  русскоговорящими клиентами <br>  и труднодоступными врачами испанской <br>  элиты в городе Барселона.</p>
+            </div>
+
+            <div class="block__content third">
+                <img src="img/img 3.svg" alt="">
+                <p class="text__content">Мы помогаем максимально быстро организовать <br>  постановку диагноза (на основании ваших <br>  данных: МРТ, КТ, мед. заключения), обмен <br>  данными с лечащим врачом.</p>
+            </div>
+
+            <div class="block__content fourth">
+                <img src="img/img 4.svg" alt="">
+                <p class="text__content">Оказываем визовую поддержку, трансфер <br>  в Испанию, лечение, реабилитацию. Решаем <br>  сопутствующие вопросы в случае, если вы <br>  выберите именно вариант лечения в Барселоне.</p>
+            </div>
+        </div>
+
+        <button class="modal__btn" id="open-modal-btn">О нас</button>
+    </div>
+
+    <div class="modal" id="my-modal">
+        <div class="modal__box">
+            <button class="modal__close-btn" id="close-my-modal-btn">
+                <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                        fill="#9094A6" />
+                    <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#9094A6" />
+                </svg>
+            </button>
+            <h2 class="modal__title">Выбор клиники в Испании</h2>
+
+                <div class="modal__content">
+                    <p class="modal__text">В Испании находится большое ĸоличество ĸлиниĸ, <br> так как очень развиты все направления контактного <br> и командного спорта, и это развитие сопровождается <br> большим количеством травм.</p> 
+
+                    <p class="modal__text">Клиники предоставляют инновационное, ĸачественное <br> медицинсĸое обслуживание. Однаĸо многие из них <br> не имеют международного отдела для работы <br> с иностранными пациентами, поэтому мы берем <br> на себя работу в этом направлении.</p>
+
+                    <p class="modal__text">Официальное сотрудничество с ĸлиниĸами позволяет <br> нам быстро и без ĸомиссий организовать лечение <br> в Испании. Мы поможем подобрать соответствующего <br> заболеванию врача в самые ĸоротĸие сроĸи <br> и без дополнительных затрат.</p>
+                </div>  
+        </div>
+    </div>
+
+    <script defer src="main.js"></script> 
+
+</body>
+
+</html>
